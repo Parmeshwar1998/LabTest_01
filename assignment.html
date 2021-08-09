@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <script src='js/bootstrap.min.js'></script>
+</head>
+<body>
+
+   <div class="container mt-5 border-danger-2">
+       
+    <div class="row">
+     
+        <div class="card col-2 bg-info mr-2">
+           <input type="checkbox" class="offset-6" id="c1">
+        <div class="card-body">
+            <img src="D:/Web_Programming_Technology/Bootstrap/ass/a.jpg" class="img-fluid">
+                 <p class="card-text">
+                     <div id="p1">
+                         <p>Name:Item1</p>
+                         <p>Description:Item1</p>
+                         <p>Price:100</p>
+                         <span>Qty:<input type="text" id="d1"></span>
+                         
+                     </div>
+                     </p>
+                    </div>
+                </div>
+                <div class="card mr-2 col-2 bg-info mr-2">
+                    <input type="checkbox" class="offset-6" id="c2">
+                 <div class="card-body">
+                     
+                      <img src="D:/Web_Programming_Technology/Bootstrap/ass/a.jpg" class="img-fluid">
+                          <p class="card-text">
+                              <div id="d2">
+                                  <p>Name:Item1</p>
+                                  <p>Description:Item1</p>
+                                  <p>Price:100</p>
+                                  <span>Qty:<input type="text" id="p2"></span>
+                              </div>
+                              </p>
+                             </div>
+                         </div>
+                         <div class="card col-2 bg-info mr-3">
+                            <input type="checkbox" class="offset-6">
+                         <div class="card-body">
+                             
+                       <img src="D:/Web_Programming_Technology/Bootstrap/ass/a.jpg" class="img-fluid">
+                                  <p class="card-text">
+                                      <div>
+                                          <p>Name:Item1</p>
+                                          <p>Description:Item1</p>
+                                          <p>Price:100</p>
+                                          <span>Qty:<input type="text"></span>
+                                      </div>
+                                      </p>
+                                     </div>
+                                 </div>
+                                 <div class="card col-2 bg-info mr-2">
+                                    <input type="checkbox"class="offset-6">
+                                 <div class="card-body">
+                                     
+                                      <img src="D:/Web_Programming_Technology/Bootstrap/ass/a.jpg" class="img-fluid">
+                                          <p class="card-text">
+                                              <div>
+                                                  <p>Name:Item1</p>
+                                                  <p>Description:Item1</p>
+                                                  <p>Price:100</p>
+                                                  <span>Qty:<input type="text"></span>
+                                              </div>
+                                              </p>
+                                             </div>
+                                         </div>
+
+
+                </div>
+         
+                <div class="mt-2 row">
+                    <div class="card col-2 bg-info mr-2">
+                       <input type="checkbox" class="offset-6">
+                    <div class="card-body">
+                        
+                         <img src="D:/Web_Programming_Technology/Bootstrap/ass/a.jpg" class="img-fluid">
+                             <p class="card-text">
+                                 <div>
+                                     <p>Name:Item1</p>
+                                     <p>Description:Item1</p>
+                                     <p>Price:100</p>
+                                     <span>Qty:<input type="text"></span>
+                                 </div>
+                                 </p>
+                                </div>
+                            </div>
+                            <div class="card col-2 bg-info mr-2">
+                                <input type="checkbox" class="offset-6">
+                             <div class="card-body">
+                                 
+                                  <img src="D:/Web_Programming_Technology/Bootstrap/ass/a.jpg" class="img-fluid">
+                                      <p class="card-text">
+                                          <div>
+                                              <p>Name:Item1</p>
+                                              <p>Description:Item1</p>
+                                              <p>Price:100</p>
+                                              <span>Qty:<input type="text"></span>
+                                          </div>
+                                          </p>
+                                         </div>
+                                     </div>
+                                     <div class="card col-2 bg-info mr-2">
+                                        <input type="checkbox" class="offset-6">
+                                     <div class="card-body">
+                                         
+                                   <img src="D:/Web_Programming_Technology/Bootstrap/ass/a.jpg" class="img-fluid">
+                                              <p class="card-text">
+                                                  <div>
+                                                      <p>Name:Item1</p>
+                                                      <p>Description:Item1</p>
+                                                      <p>Price:100</p>
+                                                      <span>Qty:<input type="text"></span>
+                                                  </div>
+                                                  </p>
+                                                 </div>
+                                             </div>
+                                             <div class="card col-2 bg-info mr-2">
+                                                <input type="checkbox"class="offset-6">
+                                             <div class="card-body">
+                                                 
+                                                  <img src="D:/Web_Programming_Technology/Bootstrap/ass/a.jpg" class="img-fluid">
+                                                      <p class="card-text">
+                                                          <div>
+                                                              <p>Name:Item1</p>
+                                                              <p>Description:Item1</p>
+                                                              <p>Price:100</p>
+                                                              <span>Qty:<input type="text"></span>
+                                                          </div>
+                                                          </p>
+                                                         </div>
+                                         </div>
+            
+            
+                            </div>
+   </div>
+   <br>
+ <span id="s1"></span><br>
+ <span id="s2"></span><br>
+ <span id="s3"></span><br>
+ <span id="s4"></span><br>
+ <span id="s5"></span><br>
+ <span id="s6"></span><br><br>
+
+ <button type="button" id="btn1" onclick="show()">Total</button>
+ <span id="s7"></span><br><br>
+    
+   <script>
+
+       document.getElementById("c1").onclick=function find(){
+
+
+        var qty=document.getElementById("d1").value
+        var data=document.getElementById("p1").innerText;
+        document.getElementById("s1").innerHTML=data;
+       var asd= document.getElementById("s2").innerHTML=qty
+        var total1=asd*100;
+        document.getElementById("s3").innerHTML=total1
+         }
+
+         document.getElementById("c2").onclick=function(){
+
+
+var qty1=document.getElementById("p2").value
+var data1=document.getElementById("d2").innerText;
+document.getElementById("s4").innerHTML=data1;
+var asd1= document.getElementById("s5").innerHTML=qty1
+var total2=asd1*100;
+document.getElementById("s6").innerHTML=total2
+
+
+ }
+
+ function total()
+{
+    find(c1,d1);
+
+} 
+
+ 
+ 
+ function show(){
+   
+    var s=Number(document.getElementById("s3").innerText);
+    var p=Number(document.getElementById("s6").innerText);
+  
+    document.getElementById("s7").innerHTML="total is::"+(s+p);
+
+
+ }
+
+
+
+       
+   </script>
+</body>
+</html>
